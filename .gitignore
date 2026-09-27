@@ -1,24 +1,26 @@
-# Compiled class file
+# Node / Angular (Importante: evita subir node_modules)
+node_modules/
+dist/
+.angular/
+
+# Java / Spring Boot / Maven
+target/
+.gradle/
+build/
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Logs
+*.log
+
+# Archivos de Editores e IDEs (VS Code, IntelliJ IDEA, Eclipse)
+.idea/
+.vscode/
+*.iml
+.settings/
+.project/
+
+# Variables de entorno y credenciales
+.env
+application-local.properties
